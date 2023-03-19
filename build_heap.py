@@ -22,7 +22,7 @@ def main():
     if "F" in input_type:
         try:
             file_input = input()
-            file = open("test/" + file_input,"r")
+            file = open("/workspaces/convert-array-into-heap-rozral/tests/" + file_input,"r")
             lines = file.readlines()
             length = int(lines[0])
             data = list(map(int,lines[1].split(" ")))
