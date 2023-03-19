@@ -38,7 +38,7 @@ def main():
 
     swaps = build_heap(data)
     print(len(swaps))
-    if(len(swaps) <= 109):   
+    if(len(swaps) <= 109):
         for i,j in swaps:
             print(i,j)
 
